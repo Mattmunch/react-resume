@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from '../App.css';
 
 const Education = () => (
-  <section>
+  <section className={styles.education}>
     <h3>Education and Training</h3>
     <br></br>
     <h4>Alchemy Code Lab</h4>

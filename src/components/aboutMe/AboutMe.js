@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from '../App.css';
 
 const AboutMe = () => (
-  <section>
+  <section className={styles.aboutMe}>
     <h3>About Me</h3>
     <p>
             Full-Stack Software Developer with a strong background In troubleshooting and problem solving from background in the trades. Integrity and empathy are at the heart of all I do and I'm looking to join a team where I can put my interpersonal skills to use.

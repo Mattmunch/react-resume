@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from '../App.css';
 
 const Projects = () => (
-  <section>
+  <section className={styles.projects}>
     <h3>Projects</h3>
     <p>
       <b>Follow The Money</b> | Full-Stack Development | Site // GitHub

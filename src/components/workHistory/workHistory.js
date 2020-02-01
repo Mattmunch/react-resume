@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from '../App.css';
 
 const WorkHistory = () => (
-  <section>
+  <section className={styles.workHistory}>
     <h3>Work Experience</h3>
     <h4>Gropp Heating, Air, and Electric</h4>
     <h4>June 2017 - Sept 2019</h4>
