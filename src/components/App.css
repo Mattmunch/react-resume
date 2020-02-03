@@ -1,0 +1,21 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "aboutMe projects"
+    "education workHistory" ;
+
+    .aboutMe{
+        grid-area: aboutMe;
+    }
+    .projects {
+        grid-area: projects;
+    }
+    .education {
+        grid-area: education;
+    }
+    .workHistory {
+        grid-area: workHistory;
+    }
+}

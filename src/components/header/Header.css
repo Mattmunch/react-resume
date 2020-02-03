@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(171, 205, 228);
+    color: rgb(68, 68, 64);
+    width: 100%;
+
+    section{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 10px 0 10px;
+    }
+
+
+}
